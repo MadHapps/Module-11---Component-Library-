@@ -1,9 +1,12 @@
 import './App.css'
+import Badge from './Components/Badges/Badge'
 
 function App() {
 
   return (
-    <h1>Component Library++</h1>
+    <>
+      <Badge color="indigo">Badge</Badge>
+    </>
   )
 }
 

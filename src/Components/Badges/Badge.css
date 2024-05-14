@@ -1,0 +1,51 @@
+.badge {
+    width: fit-content;
+    max-width: 12em;
+    aspect-ratio: 4/1;
+    margin: .5em;
+    padding: .75em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #1F2937;
+    font-size: .875em;
+    font-weight: 500;
+    background-color: #F3F4F6;
+    border-radius: .25em;
+}
+
+.red {
+    color: #991B1B;
+    background-color: #FEE2E2;
+}
+
+.yellow {
+    color: #92400E;
+    background-color: #FEF3C7;
+}
+
+.green {
+    color: #065F46;
+    background-color: #D1FAE5;
+}
+
+.blue {
+    color: #1E40AF;
+    background-color: #DBEAFE;
+}
+
+.indigo {
+    color: #3730A3;
+    background-color: #E0E7FF;
+}
+
+.purple {
+    color: #5B21B6;
+    background-color: #EDE9FE;
+}
+
+.pink {
+    color: #9D174D;
+    background-color: #FCE7F3;
+}
