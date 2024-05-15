@@ -16,36 +16,36 @@
 }
 
 .red {
-    color: #991B1B;
-    background-color: #FEE2E2;
+    color: var(--red-font);
+    background-color: var(--red-bg);
 }
 
 .yellow {
-    color: #92400E;
-    background-color: #FEF3C7;
+    color: var(--yellow-font);
+    background-color: var(--yellow-bg);
 }
 
 .green {
-    color: #065F46;
-    background-color: #D1FAE5;
+    color: var(--green-font);
+    background-color: var(--green-bg);
 }
 
 .blue {
-    color: #1E40AF;
-    background-color: #DBEAFE;
+    color: var(--blue-font);
+    background-color: var(--blue-bg);
 }
 
 .indigo {
-    color: #3730A3;
-    background-color: #E0E7FF;
+    color: var(--indigo-font);
+    background-color: var(--indigo-bg);
 }
 
 .purple {
-    color: #5B21B6;
-    background-color: #EDE9FE;
+    color: var(--purple-font);
+    background-color: var(--purple-bg);
 }
 
 .pink {
-    color: #9D174D;
-    background-color: #FCE7F3;
+    color: var(--pink-font);
+    background-color: var(--pink-bg);
 }

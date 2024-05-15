@@ -5,6 +5,30 @@
 }
 
 :root {
+  /* Custom Variables */
+  --red-font: #991b1b;
+  --red-font-lt: #b45309;
+  --red-bg: #fee2e2;
+  --red-icon: #f87171;
+  --yellow-font: #92400e;
+  --yellow-font-lt: #b45309;
+  --yellow-bg: #fef3c7;
+  --yellow-icon: #fbbf24;
+  --green-font: #065f46;
+  --green-font-lt: #047857;
+  --green-bg: #d1fae5;
+  --green-icon: #34d399;
+  --blue-font: #1e40af;
+  --blue-font-lt: #1c51b9;
+  --blue-bg: #dbeafe;
+  --blue-icon: #60a5fa;
+  --indigo-font: #3730a3;
+  --indigo-bg: #e0e7ff;
+  --purple-font: #5b21b6;
+  --purple-bg: #ede9fe;
+  --pink-font: #9d174d;
+  --pink-bg: #fce7f3;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   color-scheme: light dark;
