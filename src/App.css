@@ -3,3 +3,9 @@
   margin: 0 auto;
   padding: 1rem;
 }
+
+.component-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;;
+}

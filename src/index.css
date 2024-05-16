@@ -21,6 +21,7 @@
   --blue-font: #1e40af;
   --blue-font-lt: #1c51b9;
   --blue-bg: #dbeafe;
+  --blue-bg-drk: #3F75FE;
   --blue-icon: #60a5fa;
   --indigo-font: #3730a3;
   --indigo-bg: #e0e7ff;
@@ -33,7 +34,7 @@
   font-size: 16px;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #E5E7EB;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
