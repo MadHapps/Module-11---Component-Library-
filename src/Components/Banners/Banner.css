@@ -1,6 +1,7 @@
 .banner {
   width: fit-content;
   min-width: 6em;
+  max-width: 820px;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr;
