@@ -19,7 +19,9 @@ export default function Testimonial({
     styleTag.innerHTML = `
       .testimonial-wrapper::before {
         grid-area: ${portrait ? 'empt' : 'none'};
-        background-color: ${bumperColor || bgColor || "#FFFFFF" };
+        grid-column: 1/-1;
+        width: 100%;
+        background-color: ${bumperColor || bgColor || "#F5F5F5" };
       }
     `;
     document.head.appendChild(styleTag);

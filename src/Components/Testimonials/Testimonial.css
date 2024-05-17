@@ -21,7 +21,7 @@
   content: "";
   grid-area: empt;
   background-color: #2545b8;
-  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  border-radius: calc(var(--border-radius) + 1em)
 }
 
 .testimonial-picture-frame {
@@ -49,7 +49,6 @@
   gap: 2em;
   padding-block: 5em;
   padding-inline: 2em;
-  background-color: #2545b8;
   border-radius: 0 var(--border-radius) var(--border-radius) 0;
 }
 
@@ -94,6 +93,7 @@
         place-self: center;
         padding-inline: 2em;
         max-width: 30em;
+        height: 90%;
     }
 
     .testimonial-info {
