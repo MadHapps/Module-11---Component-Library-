@@ -12,6 +12,11 @@
   color: #f5f5f5;
 }
 
+.no-portrait {
+    grid-template-columns: auto;
+    text-align: center;
+}
+
 .testimonial-wrapper::before {
   content: "";
   grid-area: empt;

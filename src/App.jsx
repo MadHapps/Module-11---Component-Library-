@@ -20,7 +20,14 @@ function App() {
         suscipit ea!
       </Card>
 
-      <Testimonial name="Joey Pagluica" role="Frontend Developer">
+      <Testimonial 
+      name="Joey Pagluica" 
+      role="Frontend Developer"
+      bgColor="#F5F5F5"
+      bumperColor="#2545b8"
+      fontColor="#282828"
+      portrait="/images/joey-tahoe-cold--small.png"
+      >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, cumque
         non ipsa eaque quia quam? Aliquam iusto neque minima ut!
       </Testimonial>
