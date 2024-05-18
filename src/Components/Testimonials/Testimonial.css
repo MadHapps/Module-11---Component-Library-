@@ -1,7 +1,7 @@
 .testimonial-wrapper {
   --border-radius: 1.25em;
   width: 100%;
-  max-width: 1920px;
+  max-width: 920px;
   display: grid;
   grid-template-columns: 4.5em auto auto 1fr;
   grid-template-rows: 2.5em auto 2.5em;
@@ -10,6 +10,7 @@
     "empt pict info info"
     ".... pict .... ....";
   color: #f5f5f5;
+  font-size: .75rem;
 }
 
 .no-portrait {
