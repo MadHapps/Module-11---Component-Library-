@@ -4,8 +4,13 @@
   padding: 1rem;
 }
 
-.component-wrapper {
+.components-wrapper,
+.component-display {
   display: flex;
   flex-direction: column;
-  gap: 1em;;
+  gap: 5em;;
+}
+
+.component-display {
+  gap: 1em;
 }
