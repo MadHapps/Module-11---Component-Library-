@@ -1,7 +1,8 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 1rem;
+  padding-block: 3rem 7.5rem;
+  padding-inline: 2rem;
 }
 
 .components-wrapper,
