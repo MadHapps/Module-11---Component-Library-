@@ -4,6 +4,7 @@ import Banner from "./Components/Banners/Banner";
 import Card from "./Components/Cards/Card";
 import Testimonial from "./Components/Testimonials/Testimonial";
 import Tooltip from "./Components/Tooltip/Tooltip";
+import { FaInbox } from "react-icons/fa6";
 
 function App() {
   return (
@@ -47,7 +48,15 @@ function App() {
 
       <div className="component-display">
         <h2>Tooltip:</h2>
-        <Tooltip />
+        <Tooltip
+          title="Archive notes"
+          color="#1E40AF"
+          style="light"
+          Icon={FaInbox}
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse
+          dolor explicabo ullam fugiat, deleniti rerum odio architecto.
+        </Tooltip>
       </div>
     </div>
   );
