@@ -2,7 +2,7 @@
 import "./Tooltip.css";
 import { IoClose } from "react-icons/io5";
 import { MdInfoOutline } from "react-icons/md";
-import { readableColor, mix } from "polished";
+import { mix } from "polished";
 
 export default function Tooltip({ title, color, style, Icon, children }) {
     // Calculate the font and icon color based on the background color
