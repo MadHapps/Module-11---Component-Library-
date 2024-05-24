@@ -4,9 +4,21 @@ import Banner from "./Components/Banners/Banner";
 import Card from "./Components/Cards/Card";
 import Testimonial from "./Components/Testimonials/Testimonial";
 import Tooltip from "./Components/Tooltip/Tooltip";
+import Toast from "./Components/Toast/Toast";
 import { FaInbox } from "react-icons/fa6";
+import Portal from "./Components/Portal";
+import { useState } from "react";
 
 function App() {
+  const [showToast, setShowToast] = useState(false);
+
+  const handleShowToast = () => {
+    setShowToast(true);
+    setTimeout(() => {
+      setShowToast(false);
+    }, 3000); // Hide toast after 3 seconds
+  };
+
   return (
     <div className="components-wrapper">
       <div className="component-display">
@@ -57,6 +69,18 @@ function App() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse
           dolor explicabo ullam fugiat, deleniti rerum odio architecto.
         </Tooltip>
+      </div>
+
+      <div className="component-display">
+        <h2>Toast:</h2>
+        <button className="toast-button" onClick={handleShowToast}>Show Toast</button>
+        {showToast && (
+          <Portal>
+            <Toast condition="error" title="Error">
+              Please re-save your work again.
+            </Toast>
+          </Portal>
+        )}
       </div>
     </div>
   );

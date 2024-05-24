@@ -7,7 +7,8 @@
   grid-template-rows: auto 1fr;
   padding: 1em;
   margin: 0.5em;
-  border-radius: 0.25em;
+  border-radius: 0.5em;
+  border: 1px solid #CCCCCC;
   background-color: #f5f5f5;
 }
 
@@ -52,6 +53,7 @@
 /* SUCCESS */
 .success {
   background-color: var(--green-bg);
+  border-color: var(--green-icon)
 }
 
 .success > .banner-icon {
@@ -69,6 +71,7 @@
 /* WARNING */
 .warning {
   background-color: var(--yellow-bg);
+  border-color: var(--yellow-icon)
 }
 
 .warning > .banner-icon {
@@ -86,6 +89,7 @@
 /* ERROR */
 .error {
   background-color: var(--red-bg);
+  border-color: var(--red-icon)
 }
 
 .error > .banner-icon {
@@ -103,6 +107,8 @@
 /* ERROR */
 .neutral {
   background-color: var(--blue-bg);
+  border-color: var(--blue-icon)
+
 }
 
 .neutral > .banner-icon {

@@ -15,3 +15,10 @@
 .component-display {
   gap: 1em;
 }
+
+.toast-button {
+  width: 10em;
+  padding: 1em;
+  border-radius: .5em;
+  font-weight: 600
+}
